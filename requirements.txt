@@ -1,0 +1,30 @@
+# Customer Segmentation MLOps Pipeline — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core ML
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# Clustering & dimensionality reduction (included in scikit-learn)
+# KMeans, GMM, PCA, t-SNE, StandardScaler — all from sklearn
+
+# MLflow experiment tracking
+mlflow==2.14.0
+
+# Data serialisation (XCom Parquet workaround)
+pyarrow==16.0.0
+
+# Visualisation
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Model persistence
+joblib==1.4.0
+
+# Apache Airflow (orchestration)
+apache-airflow==2.8.1
+
+# Utilities
+scipy==1.13.0
+requests==2.31.0
